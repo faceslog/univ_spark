@@ -1,0 +1,16 @@
+WARN: This is a naive implementation of PageRank and is given as an example!
+Please refer to PageRank implementation provided by graphx
+23/10/28 00:49:27 INFO SparkEnv: Registering MapOutputTracker
+23/10/28 00:49:27 INFO SparkEnv: Registering BlockManagerMaster
+23/10/28 00:49:27 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/10/28 00:49:27 INFO SparkEnv: Registering OutputCommitCoordinator
+23/10/28 00:49:27 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at cluster-93ea-m.europe-west6-c.c.page-rank-401112.internal./10.172.0.9:8032
+23/10/28 00:49:28 INFO AHSProxy: Connecting to Application History server at cluster-93ea-m.europe-west6-c.c.page-rank-401112.internal./10.172.0.9:10200
+23/10/28 00:49:28 INFO Configuration: resource-types.xml not found
+23/10/28 00:49:28 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+23/10/28 00:49:29 INFO YarnClientImpl: Submitted application application_1698427767488_0063
+23/10/28 00:49:30 INFO DefaultNoHARMFailoverProxyProvider: Connecting to ResourceManager at cluster-93ea-m.europe-west6-c.c.page-rank-401112.internal./10.172.0.9:8030
+23/10/28 00:49:31 INFO GoogleCloudStorageImpl: Ignoring exception of type GoogleJsonResponseException; verified object already exists with desired state.
+23/10/28 01:39:13 INFO GoogleCloudStorageFileSystem: Successfully repaired 'gs://dataproc-staging-europe-west6-352502095632-wsyrhkzr/out/spark/maxRank/' directory.
+23/10/28 01:39:14 INFO GhfsStorageStatistics: Detected potential high latency for operation stream_write_close_operations. latencyMs=169; previousMaxLatencyMs=0; operationCount=1; context=gs://dataproc-staging-europe-west6-352502095632-wsyrhkzr/out/spark/maxRank/_SUCCESS
+23/10/28 01:39:42 INFO GoogleCloudStorageFileSystem: Successfully repaired 'gs://dataproc-staging-europe-west6-352502095632-wsyrhkzr/out/spark/allRanks/' directory.
